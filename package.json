@@ -1,0 +1,20 @@
+{
+  "name": "p2p-csp",
+  "version": "1.0.0",
+  "description": "Your game description goes here",
+  "private": true,
+  "dependencies": {
+    "ensemblejs": "latest",
+    "gamepad-api-mappings": "^4.0.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "start": "gulp && gulp db:start && node game.js | bunyan -o short || true && gulp db:stop",
+    "test": "gulp test"
+  },
+  "author": "Ryan Boucher",
+  "license": "BSD"
+}

@@ -1,0 +1,14 @@
+{
+  "game": {
+    "id": "p2pcsp",
+    "name": "Peer2Peer Client Side Prediction"
+  },
+  "ensemble": {
+    "pause": "never",
+    "autoSaveThrottle": 100
+  },
+  "debug": {
+    "develop": true,
+    "defaultAllDevicesToPlayer": 1
+  }
+}

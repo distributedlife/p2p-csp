@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+build
+game/js/gen
+dist
+couchdb.stderr
+distributedlife console  Jan 18 21:56 
+distributedlife ttys000  Feb 19 10:33 
+distributedlife ttys001  Feb 19 10:33 
+distributedlife ttys002  Feb 19 10:33 
+distributedlife ttys003  Jan 19 20:44 
+distributedlife ttys004  Feb 19 10:33 
+distributedlife ttys005  Feb 19 10:33 
+distributedlife ttys006  Feb 19 12:32 
+distributedlife ttys007  Feb 19 22:22 
+distributedlife ttys008  Feb 19 22:51 
+couchdb.stdout
