@@ -1,4 +1,4 @@
-import define from 'ensemblejs/lib/define';
+import { on } from 'ensemblejs/lib';
 import { key } from '../constants';
 const bel = require('bel');
 
@@ -14,7 +14,7 @@ const setOnElement = (id, value) => (document.getElementById(id) && (document.ge
 const updateSpace = (current) => setOnElement('space', current);
 const updateContinuous = (current) => setOnElement('continuous', current);
 
-define('OnClientReady', ['StateTracker'], (tracker) => {
+on('ClientReady', ['StateTracker'], (tracker) => {
   document.getElementById('overlay').appendChild(overlay());
 
   return () => {

@@ -6,12 +6,13 @@ define('StateSeed', () => ({
   [key]: {
     space: 0,
     continuous: 0,
+    event: []
   }
 }));
 
 const increment = (current) => current + 1;
-const upSpaceYourFace = () => [`${key}.space`, increment];
+const upSpaceYourFace = () => [`${key}.space`, increment]
 const incrementContinuous = () => [`${key}.continuous`, increment];
 
-define('ActionMap', () => ({ space: [{ call: upSpaceYourFace, onRelease: true }] }));
+define('ActionMap', () => ({ space: [{ call: [upSpaceYourFace], onRelease: true }] }));
 on('PhysicsFrame', () => incrementContinuous);

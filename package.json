@@ -4,7 +4,7 @@
   "description": "Your game description goes here",
   "private": true,
   "dependencies": {
-    "ensemblejs": "^6.0.4",
+    "ensemblejs": "^6.2.2",
     "gamepad-api-mappings": "^4.0.0",
     "jade": "^1.11.0"
   },

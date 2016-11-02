@@ -7,8 +7,11 @@
     "pause": "never",
     "autoSaveThrottle": 100
   },
+  "logging": {
+    "logLevel": "info"
+  },
   "debug": {
     "develop": true,
-    "defaultAllDevicesToPlayer": 1
+    "everybodyIsPlayerOne": true
   }
 }
