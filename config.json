@@ -5,7 +5,7 @@
   },
   "ensemble": {
     "pause": "never",
-    "autoSaveThrottle": 100
+    "autoSaveThrottle": 1000
   },
   "logging": {
     "logLevel": "info"
